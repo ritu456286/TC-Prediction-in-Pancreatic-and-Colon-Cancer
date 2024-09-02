@@ -23,6 +23,7 @@ The goal of this project is to accurately calculate tumor cellularity by segment
 ## Tech Stack
 
 - **Python**
+- **Dataset**: PAIP 2023 challenge Dataset
 - **U-Net**: A convolutional neural network architecture designed for image segmentation.
 - **Semantic Segmentation**: Applied to accurately segment the nuclei from histopathology images.
 - **Nuclei Count**: Methods for counting tumor cell nuclei within the segmented images.
