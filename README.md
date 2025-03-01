@@ -12,7 +12,7 @@ The goal of this project is to accurately calculate tumor cellularity by segment
 
 1. **Tumor Nucleus Segmentation:**
    - **U-Net Architecture**: The U-Net model is employed to perform semantic segmentation on histopathology images, distinguishing tumor cell nuclei from surrounding tissue.
-   - **Watershed Algorithm**: The watershed algorithm is used to refine the segmentation and separate overlapping nuclei, providing more accurate nuclei count estimates.
+   - 
 
 2. **Nuclei Count:**
    - Post-segmentation, the total number of nuclei is counted, allowing for the determination of tumor cellularity within the tissue sample.
@@ -24,10 +24,10 @@ The goal of this project is to accurately calculate tumor cellularity by segment
 
 - **Python**
 - **Dataset**: PAIP 2023 challenge Dataset
-- **U-Net**: A convolutional neural network architecture designed for image segmentation.
+- **U-Net**: from segmentation-models, a convolutional neural network architecture designed for image segmentation.
 - **Semantic Segmentation**: Applied to accurately segment the nuclei from histopathology images.
-- **Nuclei Count**: Methods for counting tumor cell nuclei within the segmented images.
-- **Watershed Algorithm**: A post-processing technique used to separate closely-packed nuclei.
+- **Nuclei Count**: Methods for counting tumor cell nuclei within the segmented images, used morphological operations.
+- **Metaheristics** - To be applied, to optimize the architecture.
 
 ## Results
 
